@@ -1,4 +1,4 @@
-window.onload = function () {
+
     var cube = function () {};
     cube.prototype = {
         clientWidth: document.documentElement.clientWidth,
@@ -211,11 +211,3 @@ window.onload = function () {
             })
         }
     };
-    var Cube = new cube();
-    Cube.init({
-        /* 圆环X轴坐标 */
-        left: 20,
-        /* 圆环Y轴坐标 */
-        top: 20,
-    });
-}
